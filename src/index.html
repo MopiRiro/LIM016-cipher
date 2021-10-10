@@ -1,16 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Cifrado Cesar</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,700&display=swap" rel="stylesheet">
+
+    <!-- ayuda en el performance del sitio web -->
+    <link rel="preload" href="style.css" as="style">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-      <h2>Prueba</h2>
-      <h3>Prueba2</h3>
-    </div>
+    <header>
+      <div class="contenedor-titulo">
+        <h1>Rappi<span>Cypher</span></h1>
+      </div>
+      <div>
+        <p class="slogan">¡Las entregas de tus pedidos nunca fueron más seguras!</p>
+      </div>
+    </header>
+    <main>
+        <div class="contenedor">  
+          <div class="primaryColumn">
+            <!-- <p class="lbl">Ingresa el texto</p> -->
+            <input class="inputClass" type="text" id="msjOriginal" placeholder="Nombre del cliente">
+            <br>
+            <!-- <p class="lbl">Escribe el primer digito del número de pedido</p> -->
+            <input class="inputClass" type="number" id="numDesplazamiento" placeholder="Primer digito del pedido ">
+            <div>
+                <button class="btnPrimario" id="btnCifrar">Cifrar</button>
+                <button class="btnSecundario" id="btnDescifrar">Descifrar</button>
+            </div>
+          </div>
+          <div class="secondColumn">
+              <p>El código secreto de entrega es:</p>
+              <p id="msjCifrado"></p>
+          </div>
+        </div>
+      
+    </main>
     <script src="index.js" type="module"></script>
   </body>
 </html>
