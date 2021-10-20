@@ -20,11 +20,11 @@ RappiCypher es un aplicativo web inspirado en la empresa Rappi y su proceso de e
 
 ## 2. Definición del producto
 
-*¿Quiénes son los principales usuarios de producto?
+###*¿Quiénes son los principales usuarios de producto?
 Esta aplicación web está dirigida a los clientes de la marca Rappi que deseen tener mayor seguridad en las entregas de sus pedidos.
-*¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
+###*¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
 Cifrar o descifrar el código de seguridad de la entrega, esto permite acceder a una clave secreta a los clientes a la hora de la entrega de sus pedidos.
-*¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
+###*¿Cómo crees que el producto que estás creando está resolviendo sus problemas?
 Esta aplicación se inspiró en la logística del proceso de entrega de la empresa Rappi. Al ver que un porcentaje significativo de clientes reportaba haber recibido un pedido equivocado o definitivamente no haberlo recibido. Se pudo realizar encuestas a los clientes el cual ayudo a identificar el problema. Los pedidos estaban siendo entregados a personas equivocadas, debido a que los repartidores no verificaban con precisión quien era el verdadero cliente. RappiCypher cifrar y descifrar un código de entrega secreto el cual permitirá solucionar el problema de verificación del cliente por parte de los repartidores.
 
 
@@ -45,11 +45,11 @@ Al ingresar estos datos en los campos indicados la aplicación procederá a cifr
 ## 5. Prototipo
 
 *Prototipo 1
-El prototipo inicialmente fue diseñado a mano
+###El prototipo inicialmente fue diseñado a mano
 ![imagen1](img/prototipo1.jpeg)
 
 *Prototipo 2
-El segundo prototipo fue diseñado con la herramienta Figma
+###El segundo prototipo fue diseñado con la herramienta Figma
 ![imagen2](img/prototipo2.jpg)
 
 
@@ -63,3 +63,5 @@ El segundo prototipo fue diseñado con la herramienta Figma
 ## 7. Interfaz de usuario
 
 La interfaz del usuario permite cifrar y descifrar texto mediante un desplazamiento (offset) aplicando el cifrado César, al insertar el texto podemos ver el resultado del cifrado y descifrado. También, contamos con un botón que permite borrar los datos ingresados para poder cifrar o descifrar más textos. Por último podemos apreciar la sección del pie de página donde se encuentra el logo y las redes sociales de la empresa.
+
+##![imagen3](img/RappiCypher.jpg)
