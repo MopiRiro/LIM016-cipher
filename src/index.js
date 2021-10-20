@@ -28,6 +28,18 @@ btnLimpiar.addEventListener('click', ()=>{
 
 })
 
+//validacion de datos
+// function checkInputs(txt,num){
+//     const txt= document.getElementById('msjOriginal').value;
+//     const num= document.getElementById('numDesplazamiento').value;
+//         if(txt===''){       
+//             Error('Debe ingresar su nombre',txt);
+//         }else if (num===''){
+//             Error('Debe ingresar un número',num);
+//         }else{
+//             document.getElementById('contenedorResultado').style.display='block';
+//         }
 
+// }
 //prueba en consola
 console.log(cipher);

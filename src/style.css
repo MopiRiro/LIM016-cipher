@@ -5,6 +5,7 @@
     --oscuro:#000000;
     --primario:#FF441F;
     --secundario:#f7f8f9;
+    --terciario: #7A7A7A;
 }
 
 /*
@@ -111,4 +112,58 @@ h1 span {
     border:none;
     border-radius: 1rem;
 }
+footer {
+    width: 100%;
+    background-color: var(--secundario);
+    background-size: cover;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
 
+.contenedor-footer {
+    display:flex;
+    /* se ponen uno de bajo del otro cuando no quepan en una sola linea*/
+    flex-wrap: wrap;
+    /* Para que ocupen el ancho completo*/
+    justify-content: space-between;
+    max-width: 120rem;
+    margin: auto;
+    margin-top: 40rem;
+}
+
+.box_footer{
+    display:flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.box_footer .logo img{
+    width: 15rem;
+    margin-top: 3rem;
+}
+
+.box_footer h2{
+    margin-bottom: 3rem;
+    color: var(--terciario);
+    font-weight: 700;
+}
+
+.box_footer a{
+    margin: 0.5rem;
+    color:var(--terciario);
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.box_footer a:hover{
+    opacity: 0.8%;
+}
+
+.box_footer a .fab{
+    margin-right:1rem;
+    font-size: 1.5rem;
+}
+/* .box_footer a .fas{
+    margin-right:1rem;
+    font-size: 1.5rem;
+} */
