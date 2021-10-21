@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="img/rappi.png">
+    <title>RappiCypher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300;1,700&display=swap" rel="stylesheet">
+
+    <!-- ayuda en el performance del sitio web -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/c26e936b31.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="contenedor-titulo">
+        <h1>Rappi<span>Cypher</span></h1>
+      </div>
+      <div>
+        <p class="slogan">¡Las entregas de tus pedidos nunca fueron más seguras!</p>
+      </div>
+    </header>
+    <main>
+        <div class="contenedor">  
+          <div class="primaryColumn">
+            <!-- <p class="lbl">Ingresa el texto</p> -->
+            <input class="inputClass" type="text" id="msjOriginal" placeholder="Nombre del cliente">
+            <br>
+            <!-- <p class="lbl">Escribe el primer digito del número de pedido</p> -->
+            <input class="inputClass" type="number" id="numDesplazamiento" placeholder="Primer digito del pedido ">
+            <div>
+                <button class="btnPrimario" id="btnCifrar">Cifrar</button>
+                <button class="btnSecundario" id="btnDescifrar">Descifrar</button>
+            </div>
+          </div>
+          <div id="contenedorResultado" class="secondColumn">
+              <p>El código secreto de entrega es:</p>
+              <p id="msjResultado"></p>
+              <button id="btnLimpiar" class="btnLimpiar">
+                  <img src="https://img.icons8.com/color/48/000000/delete-forever.png" alt="Boton para borrar los datos ingresados"/>
+              </button>
+          </div>
+        </div>
+    </main>
+    <footer>
+       
+      <div class="contenedor-footer">
+          <div class="box_footer">
+            <div class="logo">
+              <img  src="img/rappi_logo.webp" alt="Logo Rappi"/>
+            </div>
+          </div>
+          <div class="box_footer">
+            <h2>Redes sociales</h2>
+            <a href="https://www.rappi.com.pe/" target="_blank"><i class="fab fa-accusoft"></i>Web</a>
+            <a href="https://www.facebook.com/rappi.pe" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
+            <a href="https://www.instagram.com/rappi.pe/?hl=es" target="_blank"><i class="fab fa-instagram-square"></i>Instragram</a>
+          </div>
+          <div class="box_footer">
+            <h2>Creadora</h2>
+            <span>© 2021 Pilar Rivera. All rights reserved.</span>
+          </div>
+      </div>
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
